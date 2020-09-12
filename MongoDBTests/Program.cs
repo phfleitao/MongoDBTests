@@ -10,6 +10,8 @@ namespace MongoDBTests
         private static readonly ITaskRepository _taskRepository = new TaskRepository();
         static void Main(string[] args)
         {
+            //Sample
+
             InsertTasks();
             UpdateFirstTask();
             DeleteLastTask();
